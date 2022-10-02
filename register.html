@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <section id="head-sec">
+    <div class="container">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <!-- LEFT NAVBAR -->
+        <div class="left-nav">
+          <h1>
+            <a class="title-main2" href="#">STYLES<br>CONFERENCE</a>
+          </h1>
+        </div>
+        <div class="right-nav">
+          <h3>August 24-26th - Chicage, IL</h3>
+          <br>
+          <a type="button" class="icon" onclick="myFunction()">
+            <i class="fa fa-2x fa-bars"></i>
+          </a>
+          <a class="desktop-link" href="index.html">HOME</a>
+          <a class="desktop-link" href="speakers.html">SPEAKERS</a>
+          <a class="desktop-link" href="schedule.html">SCHEDULE</a>
+          <a class="desktop-link" href="venue.html">VENUE</a>
+          <a class="desktop-link" href="register.html">REGISTER</a>
+        </div>
+      </div>
+      <div class="hidden-nav">
+        <h3>August 24-26th - Chicage, IL</h3>
+        <br>
+        <a href="index.html">HOME</a>
+        <a href="speakers.html">SPEAKERS</a>
+        <a href="schedule.html">SCHEDULE</a>
+        <a href="venue.html">VENUE</a>
+        <a href="register.html">REGISTER</a>
+      </div>
+      <!-- HIDDEN TABLET BUTTON -->
+
+      <div class="topnav">
+        <div class="myLinks">
+          <a href="index.html">HOME</a>
+          <a href="speakers.html">SPEAKERS</a>
+          <a href="schedule.html">SCHEDULE</a>
+          <a href="venue.html">VENUE</a>
+          <a href="register.html">REGISTER</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+      </div>
+    </div>
+  </section>
+
+  <section id="speakers-sec">
+    <div class="speakers-top container">
+      <h2>Register</h2>
+      <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. Conference passes only cost $99, one of the best values you'll find.</p>
+    </div>
+  </section>
+
+  <section id="purchase-sec">
+    <div class="container purchase-form">
+      <div class="left-purchase">
+        <h3>Purchase a Conference Pass</h3>
+        <h4>$99 PER PASS</h4>
+        <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we’ll follow up and provide a receipt for
+          your purchase. See you soon!</p>
+        <h4>Why Attend?</h4>
+        <ul>
+          <li>Over twenty world-class speakers</li>
+          <li>One full day of workshops and two full days of presentations</li>
+          <li>Hosted at The Chicago Theatre, a historical landmark</li>
+          <li>August in Chicago is simply amazing</li>
+        </ul>
+
+      </div>
+      <div class="right-purchase">
+        <form class="form-main" method="post" action="mailto:joe@example.com">
+          <label for="name">Name</label> <br>
+          <input class="input-purch" type="text" placeholder="Full name" size="30" name="name"> <br>
+          <label for="email">Email</label> <br>
+          <input class="input-purch" type="text" placeholder="Email address" size="30" name="email"> <br>
+            <label>Number of Passes</label> <br>
+            <select class="select-btn">
+              <option value="1"> 1
+              </option>
+              <option value="2"> 2
+              </option>
+              <option value="3"> 3
+              </option>
+              <option value="4"> 4
+              </option>
+              <option value="5"> 5
+              </option>
+            </select>
+
+          <label class="label2" for="">Comments</label> <br>
+          <textarea name="name" rows="5" cols="30"></textarea>
+          <input class="submit-btn" type="submit" value="PURCHASE">
+        </form>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <section id="footer-sec" class="footer-extended">
+    <div class="container">
+      <!-- LEFT FOOTER -->
+      <div class="left-footer">
+        <p>© Styles Conference</p>
+      </div>
+      <!-- RIGHT FOOTER -->
+      <div class="right-footer">
+        <a href="index.html">HOME</a>
+        <a href="speakers.html">SPEAKERS</a>
+        <a href="schedule.html">SCHEDULE</a>
+        <a href="venue.html">VENUE</a>
+        <a href="register.html">REGISTER</a>
+      </div>
+    </div>
+
+  </section>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

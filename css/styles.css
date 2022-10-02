@@ -1,0 +1,660 @@
+/*********************** GENERAL SECTION *****************************/
+html {
+  font-family: 'Lato', sans-serif;
+
+}
+
+body {
+  margin: 0;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/**************************** HEAD SECTION ****************************/
+#head-sec {
+  background-color: #406882;
+  color: #fff;
+}
+
+/****************************** NAVBAR SECTION *************************/
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.title-main {
+  font-weight: 200;
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.right-nav {
+  margin-top: 2.5rem;
+}
+
+.right-nav h3 {
+  font-size: 1.5rem;
+  font-family: 'Encode Sans', sans-serif;
+  color: #3E8E7E;
+  font-weight: 300;
+  text-align: right;
+  margin-bottom: -0.2rem;
+}
+
+.right-nav a {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 300;
+  margin-left: 0.75rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.right-nav a:hover {
+  color: #3E8E7E;
+}
+
+.hidden-nav {
+  display: none;
+}
+
+/**************************** TABLET-SIZE HIDDEN NAV ************************/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.icon {
+  display: none;
+}
+
+/******************************** HEAD SECTION ****************************/
+.head-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.head-title h2 {
+  color: #3E8E7E;
+  margin-top: 2rem;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 200;
+}
+
+.head-title p {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+.head-title a {
+  font-family: 'Encode Sans', sans-serif;
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  border-radius: 5px;
+  border-color: #fff;
+  border-style: solid;
+  border-width: thin;
+  background-color: transparent;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.head-title a:hover {
+  color: #3E8E7E;
+  background-color: #fff;
+}
+
+/******************************* BODY SECTION *****************************/
+#body-sec .container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card1, .card2, .card3 {
+  padding: 0 3rem;
+  flex: 1;
+}
+
+#body-sec h5 {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 200;
+}
+
+#body-sec img {
+  max-width: 100%;
+}
+
+#body-sec h3, h5, p {
+  color: grey;
+  font-family: 'Encode Sans', sans-serif;
+}
+#body-sec h3 {
+  font-weight: 300;
+}
+#body-sec p {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 200;
+}
+
+/************************ FOOTER SECTION ***************************/
+#footer-sec {
+  background-color: #406882;
+}
+
+#footer-sec .container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
+
+.left-footer {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 200;
+  color: #3E8E7E;
+}
+
+.right-footer {
+  margin-top: 1rem;
+  margin-right: 5rem;
+}
+
+.right-footer a {
+  font-family: 'Encode Sans', sans-serif;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 200;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+.right-footer a:hover {
+  color: #3E8E7E;
+}
+
+.footer-extended {
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  box-shadow: 0 50vh 0 50vh #406882;
+}
+/****************************** SPEAKERS PAGE *********************************/
+/**************************TITLE SECTION ***********************/
+.title-main2 {
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+}
+
+/************************* SPEAKERS SECTION **********************/
+#speakers-sec {
+  text-align: center;
+  font-family: 'Encode Sans', sans-serif;
+  background-color: #CFFFDC;
+  padding: 1rem 0 2rem;
+  color: grey;
+  margin-bottom: 4rem;
+}
+
+#speakers-sec h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#speakers-sec p {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+/*********************** PEOPLE SECTION **************************/
+#people-sec {
+  font-family: 'Encode Sans', sans-serif;
+  color: grey;
+}
+
+.person {
+  display: flex;
+  padding: 3rem 2rem;
+  margin-top: -4rem;
+  font-weight: 100;
+}
+
+.person h3, h5 {
+  font-weight: 200;
+}
+
+.person h3 {
+  font-size: 1.5rem;
+  color: darkgrey;
+}
+
+.person-left {}
+
+.person-right {
+  text-align: center;
+  margin-left: 3rem;
+}
+
+.profile-right {
+  border-radius: 3%;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  position: relative;
+  top: 7rem;
+  min-width: 16rem;
+  padding: 1rem 1rem;
+  max-height: 8rem;
+  opacity: 0.9;
+}
+
+.profile-right img {
+  max-width: 8rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 4rem;
+}
+
+.profile-right a {
+  position: relative;
+  bottom: 3rem;
+  text-decoration: none;
+  color: darkgrey;
+}
+
+/****************************** SCHEDULE PAGE *******************************/
+#tables-sec {
+  padding-bottom: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 2rem;
+  font-family: 'Encode Sans', sans-serif;
+  color: darkgrey;
+}
+
+th {
+  padding: 2rem 2rem;
+  text-align: right;
+}
+
+td {
+  padding: 2rem 2rem;
+  border-bottom: solid;
+  border-width: 1px 0;
+  border-color: lightgrey;
+}
+
+.main-td {
+  font-size: 1.4rem;
+}
+
+.main-td, th {
+  font-weight: lighter;
+}
+
+tr:last-child>td {
+  border-bottom: 0;
+}
+
+/*********************** VENUE PAGE *******************************/
+#map-sec {
+  margin-bottom: 4rem;
+  font-weight: 200;
+}
+#map-sec h3 {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+.nav-info1, .nav-info2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.nav-info2 {
+  margin-top: 4rem;
+}
+
+/******************* PURCHASE PAGE ******************************/
+#purchase-sec {
+  font-weight: 300;
+  color: #9ca3ad;
+}
+#purchase-sec h3,h4 {
+  font-weight: 400;
+}
+#purchase-sec p {
+  font-weight: 300;
+  color: #9ca3ad;
+}
+.left-purchase {
+  margin-right: 3rem;
+}
+
+.purchase-form {
+  display: flex;
+  padding-bottom: 3rem;
+
+}
+
+.form-main label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+
+}
+
+.form-main .input-purch {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  border-radius: 3px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #9ca3ad;
+  padding: 0.5rem 0.5rem;
+}
+
+.input-purch::placeholder {
+  color: #9ca3ad;
+  opacity: 1;
+}
+
+.right-purchase label {
+  font-weight: bold;
+}
+
+.label2 {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.select-btn {
+  padding: 0.5rem 0.75rem;
+  display: block;
+  border-radius: 4px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #9ca3ad;
+  color: #9ca3ad;
+}
+
+textarea {
+  border-radius: 4px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #9ca3ad;
+  color: #9ca3ad;
+}
+
+.submit-btn {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+  border-style: none;
+  background-color: #219F94;
+  color: #fff;
+}
+
+/************************ RESPONSIVE DESIGN ******************************/
+/******************** TABLET SIZE ********************************/
+@media (min-width: 500px) and (max-width: 1000px) {
+  .container {
+    margin: auto;
+    width: auto;
+  }
+
+  #head-sec .container {
+    padding: 1rem 2rem;
+  }
+
+  .topnav {
+    display: block;
+
+  }
+
+  .right-nav {
+    margin-top: 1rem;
+
+  }
+
+  .myLinks {
+    display: none;
+  }
+
+  .myLinksToggle {
+    display: block;
+  }
+
+  .icon {
+    display: block;
+    text-align: right;
+  }
+
+  .desktop-link {
+    display: none;
+  }
+
+  .right-nav h3 {
+    font-size: 1rem;
+  }
+ #speakers-sec {
+   padding: 1rem 3rem;
+ }
+  #body-sec {
+    padding: 1rem 2rem;
+  }
+
+  .card1, .card2, .card3 {
+    padding: 1rem 1rem;
+
+  }
+#tables-sec {
+  padding: 0 3rem;
+}
+#map-sec {
+  padding: 0 5rem;
+
+
+}
+.nav-info1, .nav-info2 {
+  margin-bottom: 2rem;
+  justify-content: space-between;
+
+}
+.address-info1, .address-info2 {
+
+
+}
+.map-info1, .map-info2 {
+
+}
+iframe {
+  width: 400px;
+}
+
+.purchase-form {
+  flex-wrap: wrap;
+  padding: 1rem 2rem 2rem 5rem;
+
+}
+.right-purchase {
+  /* margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem; */
+  margin-left: 16rem;
+  margin-top: 3rem;
+}
+.submit-btn {
+  display: block;
+  margin-left: 3rem;
+
+
+}
+
+
+
+
+  #footer-sec {}
+
+    .right-footer {
+      margin-top: 1rem;
+      margin-right: 0;
+    }
+
+    .right-footer a {
+      margin-left: 0.3rem;
+
+    }
+}
+
+/*************************** PHONE SIZE ****************************/
+@media (max-width: 500px) {
+  #head-sec {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+
+  .left-nav a {
+    font-size: 3.5rem;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .right-nav {
+    display: none;
+  }
+
+  .hidden-nav h3 {
+    color: #3E8E7E;
+  }
+
+  .hidden-nav {
+    display: block;
+  }
+
+  .hidden-nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1rem;
+    font-family: 'Encode Sans', sans-serif;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  #body-sec .container {
+
+    padding: 1rem 2rem;
+  }
+  #speakers-sec {
+    margin-bottom: -1rem;
+    padding: 1rem 3rem;
+  }
+  .person {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+  }
+  .person-right {
+    margin-bottom: 6rem;
+  }
+
+  .card1, .card2, .card3 {
+    min-width: 75%;
+
+  }
+
+
+  #tables-sec {
+    padding: 0 1rem 0 0;
+    font-size: 0.75rem;
+  }
+
+#map-sec {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.nav-info1, .nav-info2 {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+}
+  iframe {
+    width: 400px;
+  }
+.purchase-form {
+  flex-wrap: wrap;
+  padding: 4rem 2rem 2rem 5rem;
+
+}
+.right-purchase {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.submit-btn {
+  display: inline-block;
+  margin-left: 3rem;
+}
+  #footer-sec .container {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .right-footer {
+    text-align: center;
+
+      margin-top: 1rem;
+      margin-right: 0;
+
+  }
+
+  .right-footer a {
+    margin-left: 0.3rem;
+
+  }
+}
